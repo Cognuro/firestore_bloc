@@ -10,26 +10,24 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  cloud_firestore: ^0.14.0+2
-  bloc: ^6.0.2
-  equatable: ^1.0.2
+  cloud_firestore: ^0.16.0
+  bloc: ^6.1.1
+  equatable: ^1.2.6
   built_collection: ^4.3.2
-  built_value: ^7.0.8
-  rxdart: ^0.24.1
-  quiver: ^2.0.5
-  collection: ^1.14.12
+  built_value: ^7.1.0
+  rxdart: ^0.25.0
+  quiver: ^2.1.5
+  collection: ^1.14.13
   firestore_doc:
-    git:
-      url: https://github.com/dustin-graham/firestore_bloc.git
-      path: ./packages/firestore_doc
+    path: ../firestore_doc
   freezed_annotation: ^0.12.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  built_value_generator: ^7.0.8
+  built_value_generator: ^7.1.0
   freezed: ^0.12.1
-  build_runner: ^1.10.0
+  build_runner: ^1.11.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
